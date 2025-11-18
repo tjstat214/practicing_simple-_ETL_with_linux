@@ -4,4 +4,8 @@ Learning the linux OS for the first time, This project is to test and practice w
 ## introduction: 
 This project contains a bash script designed to execute a basic ETL pipeline for CoreDataEngineers' data infrastructure. The script performs the following: Extracts a CSV dataset, Transforms it by renaming a column and selecting specific fields, and Loads the resulting data into a final 'Gold' directory, confirming file integrity at each stage.
 
+## Extract Task
+**Extract:** Download a CSV file. You can access the CSV using this link. Save it into a folder called raw. Your script should confirm that the file has been saved in the raw folder.
 
+This is my script solution provided for the Extract task 
+[Extract script](extract.sh)
