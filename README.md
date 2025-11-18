@@ -8,4 +8,4 @@ This project contains a bash script designed to execute a basic ETL pipeline for
 **Extract:** Download a CSV file. You can access the CSV using this link. Save it into a folder called raw. Your script should confirm that the file has been saved in the raw folder.
 
 This is my script solution provided for the Extract task 
-[Extract script](extract.sh)
+[Extract script](script_folder/extract.sh)
