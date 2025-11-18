@@ -7,21 +7,28 @@ This project contains a bash script designed to execute a basic ETL pipeline for
 ## Extract Task
 _Download a CSV file. You can access the CSV using this link. Save it into a folder called raw. Your script should confirm that the file has been saved in the raw folder._
 
-This is my script solution provided for the Extract task 
+This is my script provided for the Extract task 
 [Extract script](script_folder/extract.sh)
 
 The results after running the bash script above:
-![ extract bash script result]( )
+![ extract bash script result](Image_folder/extract_bash_result.png)
 
 _The raw data was successfully extracted in the RAW folder_
 
-![The sample of the raw_data extracted into the RAW folder]()
+![The sample of the raw_data extracted into the RAW folder](Image_folder/sample_for_raw_data.png)
 
 
 ## Transform: Task
 _After downloading the file, perform a simple transformation by renaming the column named Variable_code to variable_code. Then, select only the following columns: year, Value, Units, variable_code. Save the content of these selected columns into a file named 2023_year_finance.csv. This file should be saved in a folder called Transformed, your Bash script should confirm that it was loaded into the folder._
 
 The Transform script :  [Transform script](script_folder/transform.sh)
+
+The results after running the bash script above:
+![ transform bash script result](Image_folder/transform_bash_result.png)
+
+_The raw data was successfully transformed and saved with 2023_year_finance in the TRANSFORM folder_
+
+![The sample of the 2023_finance_data transformed and saved into the TRANSFORMED folder](Image_folder/final_transformed_data.png)
 
 
 
