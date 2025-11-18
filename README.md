@@ -21,7 +21,8 @@ _The raw data was successfully extracted in the RAW folder_
 ## Transform: Task
 _After downloading the file, perform a simple transformation by renaming the column named Variable_code to variable_code. Then, select only the following columns: year, Value, Units, variable_code. Save the content of these selected columns into a file named 2023_year_finance.csv. This file should be saved in a folder called Transformed, your Bash script should confirm that it was loaded into the folder._
 
-The Transform script :  [Transform script](script_folder/transform.sh)
+The Transform script :  
+[Transform script](script_folder/transform.sh)
 
 The results after running the bash script above:
 ![ transform bash script result](Image_folder/transform_bash_result.png)
@@ -30,6 +31,16 @@ _The raw data was successfully transformed and saved with 2023_year_finance in t
 
 ![The sample of the 2023_finance_data transformed and saved into the TRANSFORMED folder](Image_folder/final_transformed_data.png)
 
+## Load:
+_Load the transformed data into a directory named Gold. Also, confirm that the file has been saved in the folder._
+
+The load script: 
+[Load script](script_folder/load.sh)
+
+The results after running the bash script above:
+![Load bash script result](Image_folder/load_script_result.png)
+
+_The raw data was successfully loaded into the GOLD folder_
 
 
 
