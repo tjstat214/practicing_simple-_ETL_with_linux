@@ -11,6 +11,7 @@ This is my script provided for the Extract task
 [Extract script](script_folder/extract.sh)
 
 The results after running the bash script above:
+
 ![ extract bash script result](Image_folder/extract_bash_result.png)
 
 _The raw data was successfully extracted in the RAW folder_
@@ -25,6 +26,7 @@ The Transform script :
 [Transform script](script_folder/transform.sh)
 
 The results after running the bash script above:
+
 ![ transform bash script result](Image_folder/transform_bash_result.png)
 
 _The raw data was successfully transformed and saved with 2023_year_finance in the TRANSFORM folder_
